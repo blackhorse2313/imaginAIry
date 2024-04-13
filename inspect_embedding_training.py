@@ -165,6 +165,7 @@ def get_embedding_file_data(embedding_file_name: str) -> (str, int, str, str, st
     global DIMS_PER_VECTOR
 
     embed = {}
+    
     metadata = {}
     try:
         if is_safetensors(embedding_file_name):
