@@ -36,6 +36,7 @@ Magnitude measures the mathematical magnitude, which is the sqrt of the sum of s
 * Place the inspect_embedding_training.py file at "Stable Diffusion\textual_inversion\YYYY-MM-DD\YourEmbeddingName" in your Automatic1111 installation.
 * If you have Python set to run .py files, just double click the file to run it. Otherwise, open a command window in the directory and type `python inspect_embedding_training.py` and hit Enter.
 
+
 ![folder](https://i.imgur.com/tiM89rS.jpg)
 
 If you get the error `ModuleNotFoundError: No module named 'torch'` when running the script, open a console and run the command `pip install torch` and try again.
