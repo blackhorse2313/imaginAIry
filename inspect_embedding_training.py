@@ -35,6 +35,8 @@ EXPORT_FOLDER_EMBEDDING_TABLE_TO: str = None          # Saves the table when usi
 #######################################################################################################################
 
 
+
+
 DIMS_PER_VECTOR = 768 # SD 1.5 has 768, 2.X has more
 BASEDIR: str = os.path.realpath(os.path.dirname(__file__))   # the path where this .py file is located, ex "C:\Stable Diffusion\textual_inversion\2022-12-30\EmbedFolderName"
 output_dir: str = BASEDIR    # where the output graph images are saved
