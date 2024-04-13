@@ -157,6 +157,7 @@ def is_safetensors(embedding_file_name):
     return embedding_file_name.endswith(".safetensors")
 
 
+
 def get_embedding_file_data(embedding_file_name: str) -> (str, int, str, str, str, Tensor, int, float, float):
     global DIMS_PER_VECTOR
 
