@@ -15,6 +15,7 @@ from torch import Tensor
 #######################################################################################################################
 #                                                      CONFIG                                                         #
 #######################################################################################################################
+
 SAVE_LOSS_GRAPH_IMG: bool = True              # Create a .jpg of the Loss graph
 SAVE_VECTOR_GRAPH_IMG: bool = True            # Create a .jpg of the Vector graphs
 
