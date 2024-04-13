@@ -93,6 +93,8 @@ def inspect_embedding_file(embedding_file_name: str) -> None:
 
     internal_name, step, sd_checkpoint_hash, sd_checkpoint_name, token, tensors, vectors_per_token, magnitude, strength = get_embedding_file_data(embedding_file_name)
 
+
+    
     print(f"Data for embedding file: {embedding_file_name}")
     print(f"  Internal name: {internal_name}")
     print(f"  Model name it was trained on: {sd_checkpoint_name}")
