@@ -275,6 +275,8 @@ def decode_a1111_embedding(embed: dict, embedding_file_name: str):
     # else:
     #     print(f"Embedding {embedding_file_name} has an unrecognized file extension: '{file_extension}'")
 
+
+    
     return internal_name, step, sd_checkpoint_hash, sd_checkpoint_name, token, tensors, vectors_per_token, magnitude, strength
 
 
